@@ -1,17 +1,20 @@
 
 .nav{
     height: 8rem;   
-    min-width: 1000px;
+    min-width: 100px;
     background-color: rgb(0, 59, 148);
     color:#fff;
-    border: 3px solid #4400ff;
+    border: 1.5px solid #4400ff;
     flex-wrap: wrap;
     
 }
 
+nav .container{
+    height: 8rem;
+ }
+
 nav a{
     text-transform: uppercase;
-
 }
 
 nav li{
@@ -51,4 +54,18 @@ nav ul li Link:hover{
     text-align: justify;
     text-transform: uppercase;
     align-items: center;
+}
+
+@media (max-width: 600px) {
+nav .right,
+nav ul Link,
+nav a,
+nav li,
+nav .brand-logo,
+nav ul li Link{
+    float: none;
+    text-align: center;
+    font-size:1rem;
+    width: 100%;
+}
 }

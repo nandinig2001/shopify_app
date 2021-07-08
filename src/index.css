@@ -39,3 +39,14 @@
 .item-desc{
   align-self:center;
 }
+
+footer{
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: rgb(0, 59, 148);
+  color:#fff;
+  border: 1.5px solid #4400ff;
+  flex-wrap: wrap;
+  text-align: center;
+}

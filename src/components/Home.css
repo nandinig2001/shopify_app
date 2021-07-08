@@ -10,7 +10,9 @@ header{
 header h3{
     font-size: 4rem;
     margin-bottom: 2rem;
+    margin-top: 2rem;
     text-align: center;
+    height: 8rem;
 }
 
 header h4{
